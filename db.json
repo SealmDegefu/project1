@@ -1,0 +1,18 @@
+{
+    "drink collections":[
+        {
+        "name": "Devinity",
+        "drinkDescription":
+        {
+          "milk": "true or false",
+          "espresso shot": 1,
+          "sweetener": "sugar or syrup"
+          },
+        "image": "jnp.png",
+         "favorite": "♥ or ♡",
+        "comments": "can I get a soy milk instead of regular milk"
+          
+        }
+ ]
+
+}
