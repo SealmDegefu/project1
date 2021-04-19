@@ -1,0 +1,21 @@
+body {
+background-image: url("https://thumbs.dreamstime.com/b/empty-wood-table-blur-interior-coffee-shop-cafe-background-empty-top-wood-table-blur-interior-coffee-shop-138877213.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 20px;
+}
+h1{
+    color: pink;
+    text-align: center;
+}
+h1 span{
+    background-color:black; 
+    padding: 30px;
+    margin: auto;
+}
+.wrapper{width:100%; display:table;}
+.equal{display:table-cell;}
+.left{text-align:left;}
+.center{text-align:center;}
+.right{text-align:right;}
+    
