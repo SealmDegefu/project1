@@ -14,13 +14,23 @@
     <div class="container">
         <div class="box one">
             <div id = "mx-width">
-              <a href="" style="text-decoration: none; color: black;">
               <figure>
               <img class = "mySlides" src="https://image.shutterstock.com/mosaic_250/490804/547416751/stock-photo-coffee-cup-and-beans-on-old-kitchen-table-top-view-with-copyspace-for-your-text-547416751.jpg"> 
                 <figcaption style="color:black; text-align: center; padding-top: 0px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> <span class="best-seller">Best Seller</span></figcaption>
               </figure>
-              <h4 class="titleOfBlog">Devinity</h4>
-            </a>
+              <h4 class="titleOfBlog">Devinity
+                <form action="/action_page.php">
+                  <label for="cars">Customize your coffee:</label>
+                  <select name="cars" id="cars">
+                    <option value="volvo">No milk</option>
+                    <option value="saab">Almond milk</option>
+                    <option value="opel">Soy milk</option>
+                    <option value="audi">Oatmilk</option>
+                  </select>
+                  <br><br>
+                  <input type="submit" value="Submit">
+                </form>
+              </h4>
         </div>
         </div>
         <div class="box two">
@@ -41,6 +51,7 @@
             </a>
         </div>
     </div>
+    
     <div class ="footer">
         <p>Made with Love by Jazmin and Selam</p>
     </div>
