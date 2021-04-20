@@ -159,3 +159,6 @@ ul {
     position: relative;
   }
   
+  #button1 {
+    display: inline-block;
+  }

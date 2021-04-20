@@ -21,6 +21,8 @@ function carousel() {
   setTimeout(carousel, 2000); 
 }
 
+
+
 // }
 
 // const EMPTY_HEART = '♡'
