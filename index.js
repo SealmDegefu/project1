@@ -18,9 +18,7 @@ function carousel() {
   x[slideIndex-1].style.display = "block";
   setTimeout(carousel, 2000);
 }
-
 let addToy = false;
-
 document.addEventListener("DOMContentLoaded", () => {
   const editBtn = document.querySelector(".button3");
   const toyFormContainer = document.querySelector(".container3");
@@ -36,9 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
-
 let addToy2 = false;
-
 document.addEventListener("DOMContentLoaded", () => {
   const editBtn = document.querySelector(".button2");
   const toyFormContainer = document.querySelector(".container2");
@@ -70,3 +66,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+const submitButton = document.querySelector(".submit1")
+submitButton.addEventListener('click', (event) => {
+  event.preventDefault()
+  console.log('hola')
+})
