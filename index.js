@@ -18,9 +18,7 @@ function carousel() {
   x[slideIndex-1].style.display = "block";
   setTimeout(carousel, 2000);
 }
-
 let addToy = false;
-
 document.addEventListener("DOMContentLoaded", () => {
   const editBtn = document.querySelector(".button3");
   const toyFormContainer = document.querySelector(".container3");
@@ -36,9 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
-
 let addToy2 = false;
-
 document.addEventListener("DOMContentLoaded", () => {
   const editBtn = document.querySelector(".button2");
   const toyFormContainer = document.querySelector(".container2");
@@ -70,3 +66,45 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+const ul = document.querySelector(".coffee2")
+const submitBtn = document.querySelector(".submitListener2")
+submitBtn.addEventListener('submit', (event) =>{
+    event.preventDefault()
+    const input = document.querySelector(".input-text")
+    console.log(event.target.comment.value)
+    const newLi = document.createElement('li')
+    newLi.className = "newLi"
+    ul.appendChild(newLi)
+    newLi.innerText = event.target.comment.value
+    event.target.reset()
+    alert('Your Coffee will be ready in a hour')
+}
+)
+const ul1 = document.querySelector(".coffee1")
+const submitBtn1 = document.querySelector(".submitListener1")
+submitBtn1.addEventListener('submit', (event) =>{
+    event.preventDefault()
+    const input = document.querySelector(".input-text")
+    console.log(event.target.comment.value)
+    const newLi1 = document.createElement('li')
+    newLi1.className = "newLi1"
+    ul1.appendChild(newLi1)
+    newLi1.innerText = event.target.comment.value
+    event.target.reset()
+    alert('Your Coffee will be ready in a hour')
+}
+)
+const ul3 = document.querySelector(".coffee3")
+const submitBtn3 = document.querySelector(".submitListener3")
+submitBtn3.addEventListener('submit', (event) =>{
+    event.preventDefault()
+    // const input = document.querySelector(".input-text")
+    console.log(event.target.comment.value)
+    const newLi3 = document.createElement('li')
+    newLi3.className = "newLi3"
+    ul3.appendChild(newLi3)
+    newLi3.innerText = event.target.comment.value
+    event.target.reset()
+    alert('Your Coffee will be ready in a hour')
+}
+)
