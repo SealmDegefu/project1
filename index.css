@@ -162,3 +162,11 @@ ul {
   #button1 {
     display: inline-block;
   }
+
+  #button3 {
+    display: inline-block;
+  }
+
+  .container2, .container3, .container1 {
+    display: none;
+  }
