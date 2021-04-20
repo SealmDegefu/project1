@@ -152,3 +152,18 @@ body {
       .container2, .container3, .container1 {
         display: none;
       }
+      .newLi{
+        border: 0px;
+          background-color:pink;
+          color: black;
+      } 
+       .newLi1{
+        border: 0px;
+          background-color:pink;
+          color: black;
+      }
+      .newLi3{
+        border: 0px;
+          background-color:pink;
+          color: black;
+      }
