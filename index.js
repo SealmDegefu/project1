@@ -108,3 +108,23 @@ submitBtn3.addEventListener('submit', (event) =>{
     alert('Your Coffee will be ready in a hour')
 }
 )
+
+    // let newComment = {
+    //     "imageId": 1,
+    //     "content": newLi.innerText
+    // }
+    // postURL(newComment)
+
+// const newLi = document.createElement("li")
+// newLi.className = "newLi"
+// const input = document.querySelector(".input-text")
+//   console.log(newLi.innerText = input.value)
+//   document.querySelector(".coffee2").appendChild(newLi)
+//   event.target.reset()
+
+// const submitButton = document.querySelector(".submit1")
+// submitButton.addEventListener('click', (event) => {
+//   event.preventDefault()
+//   console.log('hola')
+// })
+
