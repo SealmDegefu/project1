@@ -21,41 +21,19 @@ function carousel() {
   setTimeout(carousel, 2000); 
 }
 
+  const editButton = document.querySelector(".button1")
+  editButton.addEventListener('click', (event)=> {
+    event.preventDefault()
+    console.log("hey")
 
+  const toyFormContainer = document.querySelector(".container");
+  addBtn.addEventListener("click", () => 
 
-// }
-
-// const EMPTY_HEART = '♡'
-// const FULL_HEART = '♥'
-
-// const likeGlyph = document.querySelectorAll('.like-glyph')
-// function likeBtn(event){
-//   const heart = event.target;
-
-//     mimicServerCall().then(function(){
-//       if(heart.innerText === EMPTY_HEART){
-//         heart.innerText = FULL_HEART
-//         heart.className = "activated-heart"
-//       }
-//       else if (like.innerText === FULL_HEART){
-//         heart.innerText = EMPTY_HEART
-//         heart.className = ""
-//       }
-//     })
-// }
-// for (const glyph of likeGlyph){
-// glyph.addEventListener('click', likeBtn);
-// }
-
-// function mimicServerCall(url="http://mimicServer.example.com", config={}) {
-//   return new Promise(function(resolve, reject) {
-//     setTimeout(function() {
-//       let isRandomFailure = Math.random() < .2
-//       if (isRandomFailure) {
-//         reject("Random server error. Try again.");
-//       } else {
-//         resolve("Pretend remote server notified of action!");
-//       }
-//     }, 300);
-//   });
-// }
+{    addToy = !addToy;
+    if (addToy) {
+      toyFormContainer.style.display = "block";
+    } else {
+      toyFormContainer.style.display = "none";
+    }
+  })
+  });
