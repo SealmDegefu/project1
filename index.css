@@ -1,164 +1,155 @@
 body {
-background-image: url("https://thumbs.dreamstime.com/b/empty-wood-table-blur-interior-coffee-shop-cafe-background-empty-top-wood-table-blur-interior-coffee-shop-138877213.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-padding-top: 20px;
-}
-h1{
-    color: pink;
-    text-align: center;
-}
-h1 span{
-    background-color:black; 
-    padding: 30px;
-    margin: auto;
-}
-
-#mx-width{
-
-    padding-top: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    height: 250px;
-    margin-top: 20px;
-}
-.titleOfBlog{
-border-radius: 25%;
-text-align: center;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 25px;
-margin-top: 15px;
-margin-right: 20px;
-margin-bottom: 0px;
-background-color: pink;
-padding: 20px;
-padding-bottom: 10px;
-}
-.best-seller{
-    border-radius: 25%;
-    background-color: hotpink;
-    padding: 10px;
-    padding-top: 5px;
-}
-.titleOfBlogTwo{
-border-radius: 25%;
-text-align: center;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 25px;
-margin-top: 15px;
-margin-right: 20px;
-margin-bottom: 0px;
-background-color: pink;
-padding: 20px;
-padding-bottom: 10px;
-}
-p{
-font-size: 12px;
-margin-top: 0px;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-text-align: center;
-}
-
-
-
-.box {
-width: 100px;
-height: 100px;
-flex: 2;
-padding: 10px 10px;
-}
-.container{
-display: flex
-
-}
-
-h2{
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 35px;
-text-align: center; 
-background-color: whitesmoke; 
-color: black;
-margin: auto;
-margin-top: 5px;
-}
-p{
-padding-top: 20px;
-}
-.traveling{
-    border-radius: 25%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    height: 320px;
-    padding-right: 10px;
-    padding-top: 30px;
-    padding-bottom: 6px;
-}
-
-.heading{
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 20px;
-background-color: whitesmoke;
-}
-.paragraph{
-font-size: 15px;
-padding-top: 0px;
-padding-bottom: 10px;
-}
-
-.mySlides{
-    border-radius: 25%;
-    margin-left: -25px;
-      padding-top: 5px;
+  background-image: url("https://thumbs.dreamstime.com/b/empty-wood-table-blur-interior-coffee-shop-cafe-background-empty-top-wood-table-blur-interior-coffee-shop-138877213.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+  }
+  h1{
+      color: pink;
+      text-align: center;
+  }
+  h1 span{
+      background-color:black;
+      padding: 30px;
+      margin: auto;
+  }
+  #mx-width{
+      padding-top: 10px;
       display: block;
-      width: 390px;
-      height: 300px;
-      padding-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 400px;
+      height: 250px;
+      margin-top: 20px;
   }
-
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: pink;
-    color: black;
-    text-align: center;
- }
-
-.close:hover {background: #bbb;}
-
-.close {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    right: 0%;
-    padding: 12px 16px;
-    transform: translate(0%, -50%);
+  .titleOfBlog{
+  border-radius: 25%;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  background-color: pink;
+  padding: 20px;
+  padding-bottom: 10px;
   }
+  .best-seller{
+      border-radius: 25%;
+      background-color: hotpink;
+      padding: 10px;
+      padding-top: 5px;
+  }
+  .titleOfBlogTwo{
+  border-radius: 25%;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  background-color: pink;
+  padding: 20px;
+  padding-bottom: 10px;
+  }
+  p{
+  font-size: 12px;
+  margin-top: 0px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  }
+  .box {
+  width: 100px;
+  height: 100px;
+  flex: 2;
+  padding: 10px 10px;
+  }
+  .container{
+  display: flex
+  }
+  h2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 35px;
+  text-align: center;
+  background-color: whitesmoke;
+  color: black;
+  margin: auto;
+  margin-top: 5px;
+  }
+  p{
+  padding-top: 20px;
+  }
+  .traveling{
+      border-radius: 25%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 400px;
+      height: 320px;
+      padding-right: 10px;
+      padding-top: 30px;
+      padding-bottom: 6px;
+  }
+  .heading{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  background-color: whitesmoke;
+  }
+  .paragraph{
+  font-size: 15px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  }
+  .mySlides{
+      border-radius: 25%;
+      margin-left: -25px;
+        padding-top: 5px;
+        display: block;
+        width: 390px;
+        height: 300px;
+        padding-bottom: 10px;
+    }
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: pink;
+      color: black;
+      text-align: center;
+   }
+  .close:hover {background: #bbb;}
+  .close {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      right: 0%;
+      padding: 12px 16px;
+      transform: translate(0%, -50%);
+    }
+  ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul li {
+      border: 1px solid #ddd;
+      margin-top: -1px; /* Prevent double borders */
+      background-color: hotpink;
+      padding: 5px;
+      text-decoration: none;
+      font-size: 15px;
+      color: black;
+      display: block;
+      position: relative;
+    }
+    #button1 {
+      display: inline-block;
+    }
+    #button3 {
+      display: inline-block;
+    }
+    .container2, .container3, .container1 {
+      display: none;
+    }
   
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  ul li {
-    border: 1px solid #ddd;
-    margin-top: -1px; /* Prevent double borders */
-    background-color: hotpink;
-    padding: 5px;
-    text-decoration: none;
-    font-size: 15px;
-    color: black;
-    display: block;
-    position: relative;
-  }
-  
-  #button1 {
-    display: inline-block;
-  }
