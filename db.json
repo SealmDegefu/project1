@@ -1,18 +1,19 @@
 {
-    "drink collections":[
-        {
-        "name": "Devinity",
-        "drinkDescription":
-        {
-          "milk": "true or false",
-          "espresso shot": 1,
-          "sweetener": "sugar or syrup"
-          },
-        "image": "jnp.png",
-         "favorite": "♥ or ♡",
-        "comments": "can I get a soy milk instead of regular milk"
-          
-        }
- ]
-
+  "drink": [
+    {
+      "name": {
+        "coffee1": "Devinity",
+        "coffee2": "Java Coffee",
+        "coffee3": "Dev-accino"
+      },
+      "drinkDescription": {
+        "milk": "true or false",
+        "espresso shot": 1,
+        "sweetener": "sugar or syrup"
+      },
+      "image": "jnp.png",
+      "favorite": "♥ or ♡",
+      "comments":""
+    }
+  ]
 }
