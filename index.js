@@ -67,7 +67,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 const ul = document.querySelector(".coffee2")
-
 const submitBtn = document.querySelector(".submitListener2")
 submitBtn.addEventListener('submit', (event) =>{
     event.preventDefault()
@@ -76,13 +75,11 @@ submitBtn.addEventListener('submit', (event) =>{
     const newLi = document.createElement('li')
     newLi.className = "newLi"
     ul.appendChild(newLi)
-
     newLi.innerText = event.target.comment.value
     event.target.reset()
     alert('Your Coffee will be ready in a hour')
 }
 )
-
 const ul1 = document.querySelector(".coffee1")
 const submitBtn1 = document.querySelector(".submitListener1")
 submitBtn1.addEventListener('submit', (event) =>{
@@ -92,13 +89,13 @@ submitBtn1.addEventListener('submit', (event) =>{
     const newLi1 = document.createElement('li')
     newLi1.className = "newLi1"
     ul1.appendChild(newLi1)
-
     newLi1.innerText = event.target.comment.value
     event.target.reset()
     alert('Your Coffee will be ready in a hour')
 }
 )
 const url = "http://localhost:3000/drinks"
+const postURL = "http://localhost:3000/drinkDescription"
 fetch(url)
 .then(res => res.json())
 .then(renderComment)
@@ -115,7 +112,6 @@ function renderComment (displayComment)
     // console.log(element.name.coffee1)
    })
 }
-
 const submitBtn3 = document.querySelector(".submitListener3")
 submitBtn3.addEventListener('submit', (event) =>{
     event.preventDefault()
@@ -123,64 +119,54 @@ submitBtn3.addEventListener('submit', (event) =>{
     // const input = document.querySelector(".input-text")
     newLi3.className = "newLi3"
     ul3.appendChild(newLi3)
-    console.log(event.target.comment.value)
+    // console.log(event.target.comment.value)
     newLi3.innerText = event.target.comment.value
-    event.target.reset()
+
     alert('Your Coffee will be ready in a hour')
     let newPatchComment = {
         "comments": event.target.comment.value
       }
-    patch(newPatchComment)
+      event.target.reset()
+   patch(newPatchComment)
 });
-
-// fetch(url)
-// .then(res => res.json())
-// .then(postPreference)
-
-// function postPreference(drinkChoices){
-//     console.log(drinkChoices)
-//    const option= document.querySelector("#coffee")
-//    option.addEventListener('submit', () =>{
-//     console.log("hey")
-//     let newOption = {
-//         "milk": drinkChoices.drinkDescription.milk
-//     }
-//     post(newOption)
-
-//    })
-
-
-// }
-
-
-
-// function post(comment) {
-//   let optionPost= {
-//     method:'POST',
-//     headers:{
-//     'Content-Type':'application/json',
-//     "Accept":'application/json'
-//     },
-//     body: JSON.stringify(comment),
-//   }
-//   fetch(url, optionPost)
-//   .then(res => res.json())
-//   .then(data => console.log(data))
-// }
-const patchUrl = "http://localhost:3000/drinks/1" 
-function patch(newPatchComment) { 
-    console.log(newPatchComment)
+   const option = document.querySelector(".submitListener3")
+   option.addEventListener('submit', (event) =>{
+       event.preventDefault()
+       const milkChoice = document.querySelector('#milkOption3')
+    //    const value = milkChoice.options[e.selectedIndex].value;
+        let newOption = {
+            
+            "milk": milkChoice.options[milkChoice.selectedIndex].value
+        } 
+        post(newOption)
+        console.log(event.target.coffee.value);
+})
+function post(drinkOption) {
+  let optionPost= {
+    method:'POST',
+    headers:{
+    'Content-Type':'application/json',
+    "Accept":'application/json'
+    },
+    body: JSON.stringify(drinkOption),
+  }
+  fetch(postURL, optionPost)
+  .then(res => res.json())
+  .then(data => console.log(data))
+}
+const patchUrl = "http://localhost:3000/drinks/1"
+function patch(comment) {
+console.log(comment)
   let optionPatch= {
     method:'PATCH',
     headers:{
     'Content-Type':'application/json',
     "Accept":'application/json'
     },
-    body: JSON.stringify({
-
-    "comments": newPatchComment.value}),
+    body: JSON.stringify(comment),
   }
   fetch(patchUrl, optionPatch)
   .then(res => res.json())
   .then(data => console.log(data))
 }
+
