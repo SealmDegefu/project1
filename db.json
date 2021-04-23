@@ -2,19 +2,35 @@
   "drinks": [
     {
       "id": 1,
-      "name": {
-        "coffee1": "Devinity",
-        "coffee2": "Java Coffee",
-        "coffee3": "Dev-accino"
-      },
-      "drinkDescription": {
-        "milk": "true or false",
-        "espresso shot": 1,
-        "sweetener": "sugar or syrup"
-      },
-      "image": "jnp.png",
-      "favorite": "♥ or ♡",
-      "comments": "I don't want milk instead soy milk"
+      "name": "Devinity",
+      "image": "",
+      "comment": "",
+      "favorite": true,
+      "description": {
+        "milk": "no milk",
+        "espresso": "none"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Java Coffee",
+      "image": "https://static9.depositphotos.com/1006753/1183/i/600/depositphotos_11836055-stock-photo-cup-of-coffee.jpg",
+      "comment": "",
+      "favorite": true,
+      "description": {
+        "milk": "",
+        "espresso": ""
+      }
+    },
+    {
+      "id": 3,
+      "name": "Dev-accino",
+      "imageId": 3,
+      "image": "https://www.thespruceeats.com/thmb/fXqRiV2RruFaCy4-NfieEYRYy-8=/1299x974/smart/filters:no_upscale()/directly-above-shot-of-cappuccino-served-on-table-654713939-5ac42a9ac5542e0037c3bc39.jpg",
+      "comment": "",
+      "favorite": "♡",
+      "milk": "Soy milk",
+      "espresso": "3 Espresso shots"
     }
   ]
 }
